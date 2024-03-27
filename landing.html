@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tropical Paradise Island</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, h3, p, form {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+        }
+
+        /* Header */
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Main Content Section */
+        .main-content {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .destination-image {
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .activity {
+            margin-bottom: 20px;
+            text-align: left;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .activity h3 {
+            color: #4CAF50;
+        }
+
+        /* Accommodation Section */
+        .accommodation {
+            margin-top: 50px;
+        }
+
+        .accommodation-image {
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Booking Form */
+        form {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="submit"] {
+            width: 100%;
+            max-width: 300px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Tropical Paradise Island</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <img class="destination-image" src="tropi.jpg" alt="Tropical Paradise Island">
+
+        <h2>About Tropical Paradise Island</h2>
+        <p>Escape to the enchanting beauty of Tropical Paradise Island and experience the ultimate relaxation and adventure.</p>
+
+        <h2>Activities</h2>
+        <div class="activity">
+            <h3>Beach Relaxation</h3>
+            <p>Unwind on pristine white sandy beaches and crystal-clear waters while sipping refreshing tropical cocktails.</p>
+        </div>
+        <div class="activity">
+            <h3>Snorkeling</h3>
+            <p>Explore the vibrant underwater world of coral reefs and exotic marine life.</p>
+        </div>
+        <div class="activity">
+            <h3>Hiking</h3>
+            <p>Embark on exhilarating hikes through lush rainforests, discover hidden waterfalls, and soak in breathtaking panoramic views.</p>
+        </div>
+
+        <!-- Accommodation Section -->
+        <div class="accommodation">
+            <h2>Accommodation</h2>
+            <p>Choose from a selection of luxurious beachfront villas, eco-friendly resorts, and cozy bungalows nestled amidst tropical gardens.</p>
+
+            <img class="accommodation-image" src="acco.jpg" alt="Accommodation">
+        </div>
+
+        <!-- Booking Form -->
+        <h2>Book Your Trip</h2>
+        <p>Plan your unforgettable getaway to Tropical Paradise Island now!</p>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <input type="submit" value="Book Now">
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Tropical Paradise Island. All rights reserved.</p>
+    </footer>
+</body>
+</html>
